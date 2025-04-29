@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "text": "# Faire une commande",
+      "type": "text",
+      "layout": {
+        "row": "Row_1yjh10e",
+        "columns": null
+      },
+      "id": "Field_0ph7xh5"
+    },
+    {
+      "label": "Nom Client",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1pyhx79",
+        "columns": null
+      },
+      "id": "Field_0t1yl7p",
+      "key": "Nomclient",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "Mail client",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ci4tio",
+        "columns": null
+      },
+      "id": "Field_1dxtqzd",
+      "key": "mailclient",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "Produit à commander",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0gq98d5",
+        "columns": null
+      },
+      "id": "Field_0jgseh2",
+      "key": "produitacommander",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "Quantité",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0x6b9c4",
+        "columns": null
+      },
+      "id": "Field_170fxh6",
+      "key": "quantité",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Oui",
+          "value": "oui"
+        },
+        {
+          "label": "Non",
+          "value": "non"
+        }
+      ],
+      "label": "Livraison",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1qu9c39",
+        "columns": null
+      },
+      "id": "Field_03fk3cq",
+      "key": "livraison",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_03mcja0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

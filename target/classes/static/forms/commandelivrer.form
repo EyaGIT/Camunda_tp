@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "text": "# Commande livrer",
+      "type": "text",
+      "layout": {
+        "row": "Row_1wumg6c",
+        "columns": null
+      },
+      "id": "Field_1ml8ly7"
+    },
+    {
+      "label": "Nom livreur",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_00iv0pt",
+        "columns": null
+      },
+      "id": "Field_05rep7v",
+      "key": "nomlivreur"
+    },
+    {
+      "values": [
+        {
+          "label": "Oui",
+          "value": "oui"
+        },
+        {
+          "label": "Non",
+          "value": "non"
+        }
+      ],
+      "label": "Livrer",
+      "type": "radio",
+      "layout": {
+        "row": null,
+        "columns": null
+      },
+      "id": "Field_0bzxn0k",
+      "key": "field_0tjjg3s",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Date de livraion",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_0fvcovy",
+        "columns": null
+      },
+      "id": "Field_1kk6h8s",
+      "key": "date_livraion"
+    }
+  ],
+  "type": "default",
+  "id": "Form_129baxj",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

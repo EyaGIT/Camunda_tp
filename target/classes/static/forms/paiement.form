@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "# Retour sur le paiement",
+      "type": "text",
+      "layout": {
+        "row": "Row_0rqx75a",
+        "columns": null
+      },
+      "id": "Field_175yh2j"
+    },
+    {
+      "values": [
+        {
+          "label": "Oui",
+          "value": "oui"
+        },
+        {
+          "label": "Non",
+          "value": "non"
+        }
+      ],
+      "label": "Le paiement a été effectué",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0xxon0h",
+        "columns": null
+      },
+      "id": "Field_0fiy70m",
+      "key": "paiement"
+    },
+    {
+      "action": "submit",
+      "label": "Clôture",
+      "type": "button",
+      "layout": {
+        "row": "Row_152n499",
+        "columns": null
+      },
+      "id": "Field_0ewa4a6",
+      "key": "field_14f2mjs"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1j8rnx3",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

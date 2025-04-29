@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# En cours de livairon",
+      "type": "text",
+      "layout": {
+        "row": "Row_1rw18qo",
+        "columns": null
+      },
+      "id": "Field_0dfxggw"
+    },
+    {
+      "action": "submit",
+      "label": "En cours",
+      "type": "button",
+      "layout": {
+        "row": "Row_1smj0b9",
+        "columns": null
+      },
+      "id": "Field_1bgvd36",
+      "key": "field_03s6mep"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1intbn1",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

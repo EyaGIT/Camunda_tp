@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "text": "# Contrôle qualité de la mise en bouteille",
+      "type": "text",
+      "layout": {
+        "row": "Row_1nhfgms",
+        "columns": null
+      },
+      "id": "Field_08pie97"
+    },
+    {
+      "values": [
+        {
+          "label": "Accepté",
+          "value": "accepte"
+        },
+        {
+          "label": "Non accepté",
+          "value": "nonaccepte"
+        }
+      ],
+      "label": "Etat",
+      "type": "radio",
+      "layout": {
+        "row": "Row_112gdsp",
+        "columns": null
+      },
+      "id": "Field_0hpv6y1",
+      "key": "etat",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Si non accepté entrer les modifications à faire",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_19ujh79",
+        "columns": null
+      },
+      "id": "Field_0p0cnuw",
+      "key": "field_0lfo8nk"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0iijo89",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
